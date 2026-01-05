@@ -296,10 +296,10 @@
             color: #FFFFFF;
         }
 
-        #subtitle {
+        .contact .subtitle {
             color: rgba(255,255,255,0.9);
-            justify-self: center;
             margin-bottom: 20px;
+            text-align: center;
         }
 
         .contact-form {
