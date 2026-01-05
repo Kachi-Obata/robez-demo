@@ -296,6 +296,12 @@
             color: #FFFFFF;
         }
 
+        #subtitle {
+            color: rgba(255,255,255,0.9);
+            justify-self: center;
+            margin-bottom: 20px;
+        }
+
         .contact-form {
             max-width: 600px;
             margin: 0 auto;
