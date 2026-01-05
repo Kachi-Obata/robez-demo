@@ -53,6 +53,12 @@
             color: #F59E0B;
         }
 
+        /*focus styles*/
+        a:focus, button:focus, input:focus, textarea:focus {
+            outline: 2px solid #F59E0B;
+            outline-offset: 2px;
+        }
+
         /* Hero Section */
         .hero {
             background: linear-gradient(135deg, #0A2540 0%, #1a3a5f 100%);
@@ -73,6 +79,12 @@
             max-width: 700px;
             margin: 0 auto 2.5rem;
             opacity: 0.95;
+        }
+
+        .hero h1, .hero p {
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .hero .cta-buttons {
